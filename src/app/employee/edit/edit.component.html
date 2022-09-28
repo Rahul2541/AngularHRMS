@@ -1,0 +1,26 @@
+<div class="container">
+    <legend>Edit Item</legend>
+    <form>
+        <div class="mb-3">
+            <label for="txtEmpName" class="form-label">Employee Name</label>
+            <input type="text" name="name" [(ngModel)] = "employeeForm.empname" class="form-control" id="txtempName" />
+          </div>
+          <div class="mb-3">
+            <label for="txtaddress" class="form-label">Address</label>
+            <input type="text" name="address" [(ngModel)] = "employeeForm.address" class="form-control" id="txtaddress" />
+          </div>
+          <div class="mb-3">
+            <label for="txtgender" class="form-label">Gender</label>
+            <input type="text" name="gender" [(ngModel)] = "employeeForm.gender" class="form-control" id="txtgender" />
+          </div>
+          <div class="mb-3">
+            <label for="txtmobileno" class="form-label">Mobile No</label>
+            <input type="number" name="mobileno" [(ngModel)] = "employeeForm.mobileno" class="form-control" id="txtmobileno" />
+          </div>
+          <div class="mb-3">
+            <label for="txtsalary" class="form-label">Salary</label>
+            <input type="number" name="salary" [(ngModel)] = "employeeForm.salary" class="form-control" id="txtsalary" />
+          </div>
+      <button type="button" (click)="update()" class="btn btn-primary">Update</button>
+    </form>
+</div>

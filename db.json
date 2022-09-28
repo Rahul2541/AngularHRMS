@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "Employee": [
+    {
+      "id": 1,
+      "empname": "Rahul",
+      "address": "pandesara",
+      "gender": "Male",
+      "mobileno": 9898256000,
+      "salary": 10000
+    },
+    {
+      "id": 2,
+      "empname": "Ganesh",
+      "address": "Udhane",
+      "gender": "Male",
+      "mobileno": 9898256001,
+      "salary": 50000
+    },
+    {
+      "id": 3,
+      "empname": "Raj",
+      "address": "Udhana",
+      "gender": "Male",
+      "mobileno": 9898256002,
+      "salary": 35000
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
